@@ -3,78 +3,78 @@ import { supabase } from './supabase.js';
 
 const translations = {
   en: {
-    appName:"Yammine Motors",home:"Home",inventory:"Cars",chat:"Chat",inbox:"Inbox",
-    profile:"Profile",admin:"Admin",logout:"Logout",login:"Sign In",register:"Create Account",
-    email:"Email address",password:"Password",fullName:"Full name",
-    noAccount:"Don't have an account?",haveAccount:"Already have an account?",
-    browseInventory:"Browse Inventory",contactOwner:"Contact Maykel",
-    featuredCars:"Featured Cars",handPicked:"Hand-picked by Maykel",viewAll:"View All →",
-    inStock:"In Stock",openAirShowroom:"Open Air Showroom",directChat:"Direct with Owner",
-    carInventory:"Car Inventory",carsFound:"cars found",
-    searchPlaceholder:"Search make, model...",filterBrand:"All Brands",
-    filterStatus:"All Status",currency:"USD/LBP",available:"Available",
-    reserved:"Reserved",sold:"Sold",year:"Year",mileage:"Mileage",fuel:"Fuel",
-    transmission:"Transmission",color:"Color",engine:"Engine",owners:"Owners",
-    description:"Description",chatWithMaykel:"Chat with Maykel",
-    communityChat:"Community Chat",openToAll:"Open to all Yammine Motors clients",
-    typeMessage:"Type a message...",send:"Send",privateChat:"Private Chat",
+    appName:"Yammine Motors", home:"Home", inventory:"Cars", chat:"Chat", inbox:"Inbox",
+    profile:"Profile", admin:"Admin", logout:"Logout", login:"Sign In", register:"Create Account",
+    email:"Email address", password:"Password", fullName:"Full name",
+    noAccount:"Don't have an account?", haveAccount:"Already have an account?",
+    browseInventory:"Browse Inventory", contactOwner:"Contact Maykel",
+    featuredCars:"Featured Cars", handPicked:"Hand-picked by Maykel", viewAll:"View All →",
+    inStock:"In Stock", openAirShowroom:"Open Air Showroom", directChat:"Direct with Owner",
+    carInventory:"Car Inventory", carsFound:"cars found",
+    searchPlaceholder:"Search make, model...", filterBrand:"All Brands",
+    filterStatus:"All Status", currency:"USD", available:"Available",
+    reserved:"Reserved", sold:"Sold", year:"Year", mileage:"Mileage", fuel:"Fuel",
+    transmission:"Transmission", color:"Color", engine:"Engine", owners:"Owners",
+    description:"Description", chatWithMaykel:"Chat with Maykel",
+    communityChat:"Community Chat", openToAll:"Open to all Yammine Motors clients",
+    typeMessage:"Type a message...", send:"Send", privateChat:"Private Chat",
     directWithMaykel:"Direct conversation with Maykel Yammine",
-    usuallyReplies:"Usually replies within an hour",askAboutCar:"Ask about a car...",
-    clientAccount:"Client Account",favorites:"Favorites",savedCars:"saved cars",
-    chats:"Chats",activeConversation:"active conversation",alerts:"Alerts",
-    priceDrop:"Price drop notifications",savedCarsTitle:"Saved Cars",signOut:"Sign Out",
+    usuallyReplies:"Usually replies within an hour", askAboutCar:"Ask about a car...",
+    clientAccount:"Client Account", favorites:"Favorites", savedCars:"saved cars",
+    chats:"Chats", activeConversation:"active conversation", alerts:"Alerts",
+    priceDrop:"Price drop notifications", savedCarsTitle:"Saved Cars", signOut:"Sign Out",
     welcomeBack:"Welcome back, Maykel. Here's your showroom overview.",
-    totalCars:"Total Cars",recentListings:"Recent Listings",car:"Car",price:"Price",
-    status:"Status",actions:"Actions",addNewCar:"+ Add New Car",edit:"Edit",
-    delete:"Delete",saveChanges:"Save Changes",cancel:"Cancel",addCar:"Add Car",
-    editCar:"Edit Car",messages:"Messages",
+    totalCars:"Total Cars", recentListings:"Recent Listings", car:"Car", price:"Price",
+    status:"Status", actions:"Actions", addNewCar:"+ Add New Car", edit:"Edit",
+    delete:"Delete", saveChanges:"Save Changes", cancel:"Cancel", addCar:"Add Car",
+    editCar:"Edit Car", messages:"Messages",
     privateConversations:"Private conversations from your clients.",
-    active:"Active",make:"Make",model:"Model",
-    makePh:"e.g. BMW",modelPh:"e.g. 5 Series",yearPh:"e.g. 2023",
-    pricePh:"e.g. 42000",mileagePh:"e.g. 15000",enginePh:"e.g. 2.0L Turbo",
-    colorPh:"e.g. Alpine White",descPh:"Car description...",
+    active:"Active", make:"Make", model:"Model",
+    makePh:"e.g. BMW", modelPh:"e.g. 5 Series", yearPh:"e.g. 2023",
+    pricePh:"e.g. 42000", mileagePh:"e.g. 15000", enginePh:"e.g. 2.0L Turbo",
+    colorPh:"e.g. Alpine White", descPh:"Car description...",
     contactViaWhatsApp:"Contact on WhatsApp",
-    uploadPhoto:"Upload Photo",uploading:"Uploading...",
-    photoUploaded:"Photo uploaded ✓",clickToUpload:"Click to select photo",
-    featured:"Show on homepage?",noClients:"No clients yet.",
-    selectClient:"Select a client to start chatting",
+    uploadPhoto:"Upload Photo", uploading:"Uploading...",
+    photoUploaded:"Photo uploaded ✓", clickToUpload:"Click to select photo",
+    featured:"Show on homepage?", noClients:"No clients yet.",
+    selectClient:"Select a client to start chatting", addMorePhotos:"Add more photos",
   },
   ar: {
-    appName:"يامين موتورز",home:"الرئيسية",inventory:"السيارات",chat:"المجتمع",
-    inbox:"الرسائل",profile:"الملف",admin:"الإدارة",logout:"تسجيل خروج",
-    login:"تسجيل دخول",register:"إنشاء حساب",email:"البريد الإلكتروني",
-    password:"كلمة المرور",fullName:"الاسم الكامل",
-    noAccount:"ليس لديك حساب؟",haveAccount:"لديك حساب بالفعل؟",
-    browseInventory:"تصفح السيارات",contactOwner:"تواصل مع ميكائيل",
-    featuredCars:"سيارات مميزة",handPicked:"اختارها ميكائيل",viewAll:"عرض الكل ←",
-    inStock:"متوفر",openAirShowroom:"معرض مفتوح",directChat:"تواصل مباشر",
-    carInventory:"قائمة السيارات",carsFound:"سيارة متوفرة",
-    searchPlaceholder:"ابحث عن ماركة، موديل...",filterBrand:"جميع الماركات",
-    filterStatus:"جميع الحالات",currency:"دولار/ليرة",available:"متوفر",
-    reserved:"محجوز",sold:"مباع",year:"السنة",mileage:"الكيلومترات",fuel:"الوقود",
-    transmission:"ناقل الحركة",color:"اللون",engine:"المحرك",
-    owners:"الملاك السابقون",description:"الوصف",chatWithMaykel:"راسل ميكائيل",
-    communityChat:"الدردشة العامة",openToAll:"متاحة لجميع عملاء يامين موتورز",
-    typeMessage:"اكتب رسالة...",send:"إرسال",privateChat:"دردشة خاصة",
+    appName:"يامين موتورز", home:"الرئيسية", inventory:"السيارات", chat:"المجتمع",
+    inbox:"الرسائل", profile:"الملف", admin:"الإدارة", logout:"تسجيل خروج",
+    login:"تسجيل دخول", register:"إنشاء حساب", email:"البريد الإلكتروني",
+    password:"كلمة المرور", fullName:"الاسم الكامل",
+    noAccount:"ليس لديك حساب؟", haveAccount:"لديك حساب بالفعل؟",
+    browseInventory:"تصفح السيارات", contactOwner:"تواصل مع ميكائيل",
+    featuredCars:"سيارات مميزة", handPicked:"اختارها ميكائيل", viewAll:"عرض الكل ←",
+    inStock:"متوفر", openAirShowroom:"معرض مفتوح", directChat:"تواصل مباشر",
+    carInventory:"قائمة السيارات", carsFound:"سيارة متوفرة",
+    searchPlaceholder:"ابحث عن ماركة، موديل...", filterBrand:"جميع الماركات",
+    filterStatus:"جميع الحالات", currency:"دولار", available:"متوفر",
+    reserved:"محجوز", sold:"مباع", year:"السنة", mileage:"الكيلومترات", fuel:"الوقود",
+    transmission:"ناقل الحركة", color:"اللون", engine:"المحرك",
+    owners:"الملاك السابقون", description:"الوصف", chatWithMaykel:"راسل ميكائيل",
+    communityChat:"الدردشة العامة", openToAll:"متاحة لجميع عملاء يامين موتورز",
+    typeMessage:"اكتب رسالة...", send:"إرسال", privateChat:"دردشة خاصة",
     directWithMaykel:"محادثة مباشرة مع ميكائيل يامين",
-    usuallyReplies:"عادة يرد خلال ساعة",askAboutCar:"اسأل عن سيارة...",
-    clientAccount:"حساب عميل",favorites:"المفضلة",savedCars:"سيارات محفوظة",
-    chats:"الدردشات",activeConversation:"محادثة نشطة",alerts:"تنبيهات",
-    priceDrop:"إشعارات انخفاض الأسعار",savedCarsTitle:"السيارات المحفوظة",
-    signOut:"تسجيل خروج",welcomeBack:"مرحباً ميكائيل. هذه نظرة عامة على معرضك.",
-    totalCars:"إجمالي السيارات",recentListings:"أحدث الإضافات",car:"السيارة",
-    price:"السعر",status:"الحالة",actions:"إجراءات",addNewCar:"+ إضافة سيارة",
-    edit:"تعديل",delete:"حذف",saveChanges:"حفظ التغييرات",cancel:"إلغاء",
-    addCar:"إضافة",editCar:"تعديل السيارة",messages:"الرسائل",
-    privateConversations:"محادثات خاصة من عملائك.",active:"نشط",
-    make:"الماركة",model:"الموديل",makePh:"مثال: بي إم دبليو",
-    modelPh:"مثال: الفئة الخامسة",yearPh:"مثال: 2023",pricePh:"مثال: 42000",
-    mileagePh:"مثال: 15000",enginePh:"مثال: 2.0 لتر تيربو",colorPh:"مثال: أبيض",
-    descPh:"وصف السيارة...",contactViaWhatsApp:"تواصل عبر واتساب",
-    uploadPhoto:"رفع صورة",uploading:"جاري الرفع...",
-    photoUploaded:"تم رفع الصورة ✓",clickToUpload:"اضغط لاختيار صورة",
-    featured:"عرض في الصفحة الرئيسية؟",noClients:"لا يوجد عملاء بعد.",
-    selectClient:"اختر عميلاً للمحادثة",
+    usuallyReplies:"عادة يرد خلال ساعة", askAboutCar:"اسأل عن سيارة...",
+    clientAccount:"حساب عميل", favorites:"المفضلة", savedCars:"سيارات محفوظة",
+    chats:"الدردشات", activeConversation:"محادثة نشطة", alerts:"تنبيهات",
+    priceDrop:"إشعارات انخفاض الأسعار", savedCarsTitle:"السيارات المحفوظة",
+    signOut:"تسجيل خروج", welcomeBack:"مرحباً ميكائيل. هذه نظرة عامة على معرضك.",
+    totalCars:"إجمالي السيارات", recentListings:"أحدث الإضافات", car:"السيارة",
+    price:"السعر", status:"الحالة", actions:"إجراءات", addNewCar:"+ إضافة سيارة",
+    edit:"تعديل", delete:"حذف", saveChanges:"حفظ التغييرات", cancel:"إلغاء",
+    addCar:"إضافة", editCar:"تعديل السيارة", messages:"الرسائل",
+    privateConversations:"محادثات خاصة من عملائك.", active:"نشط",
+    make:"الماركة", model:"الموديل", makePh:"مثال: بي إم دبليو",
+    modelPh:"مثال: الفئة الخامسة", yearPh:"مثال: 2023", pricePh:"مثال: 42000",
+    mileagePh:"مثال: 15000", enginePh:"مثال: 2.0 لتر تيربو", colorPh:"مثال: أبيض",
+    descPh:"وصف السيارة...", contactViaWhatsApp:"تواصل عبر واتساب",
+    uploadPhoto:"رفع صورة", uploading:"جاري الرفع...",
+    photoUploaded:"تم رفع الصورة ✓", clickToUpload:"اضغط لاختيار صورة",
+    featured:"عرض في الصفحة الرئيسية؟", noClients:"لا يوجد عملاء بعد.",
+    selectClient:"اختر عميلاً للمحادثة", addMorePhotos:"إضافة المزيد من الصور",
   }
 };
 
@@ -103,7 +103,6 @@ export default function App() {
   const [filterBrand, setFilterBrand] = useState("All");
   const [filterStatus, setFilterStatus] = useState("All");
   const [searchQ, setSearchQ]       = useState("");
-  const [currency, setCurrency]     = useState("USD");
   const [favorites, setFavorites]   = useState([]);
 
   // ── Chat state ──────────────────────────────────────────────
@@ -120,9 +119,9 @@ export default function App() {
   const [editingCar, setEditingCar]   = useState(null);
   const [showAddCar, setShowAddCar]   = useState(false);
   const [newCar, setNewCar]           = useState({ make:"",model:"",year:"",price:"",mileage:"",fuel:"Petrol",transmission:"Automatic",color:"",engine:"",description:"",status:"available",featured:false });
-  const [addPhotoUrl, setAddPhotoUrl] = useState("");
+  const [addPhotoUrls, setAddPhotoUrls] = useState([]); // array of URLs
   const [addUploading, setAddUploading] = useState(false);
-  const [editPhotoUrl, setEditPhotoUrl] = useState("");
+  const [editPhotoUrls, setEditPhotoUrls] = useState([]);
   const [editUploading, setEditUploading] = useState(false);
 
   const [toast, setToast]     = useState(null);
@@ -246,23 +245,23 @@ export default function App() {
   };
 
   // ── Upload to Supabase Storage ────────────────────────────────
-  const uploadPhoto = async (file, setUrl, setLoading) => {
+  const uploadPhoto = async (file, setUrlList, currentList) => {
     if (!file) return;
-    setLoading(true);
+    // setUploading(true);
     const ext = file.name.split(".").pop();
-    const path = `car-${Date.now()}.${ext}`;
+    const path = `car-${Date.now()}-${Math.random().toString(36).substring(2)}.${ext}`;
     const { error } = await supabase.storage.from("car-images").upload(path, file, { upsert: true });
-    if (error) { showToast("Upload failed: " + error.message, "error"); setLoading(false); return; }
+    if (error) { showToast("Upload failed: " + error.message, "error"); return; }
     const { data } = supabase.storage.from("car-images").getPublicUrl(path);
-    setUrl(data.publicUrl);
-    setLoading(false);
+    // setUrl(data.publicUrl);
+    setUrlList([...currentList, data.publicUrl]);
     showToast("Photo uploaded!");
   };
 
   // ── Helpers ───────────────────────────────────────────────────
-  const fmt = price => currency==="USD" ? `$${price?.toLocaleString()}` : `${((price||0)*90000).toLocaleString()} LBP`;
-  const statusColor = s => s==="available"?"#22c55e":s==="reserved"?"#f59e0b":"#ef4444";
-  const statusBg    = s => s==="available"?"#052e16":s==="reserved"?"#1c1400":"#1f0000";
+  const fmt = price => `$${price?.toLocaleString()}`;
+  const statusColor = s => s==="available"?"#10b981":s==="reserved"?"#f59e0b":"#ef4444";
+  const statusBg    = s => s==="available"?"#064e3b":s==="reserved"?"#78350f":"#7f1d1d";
 
   const filteredCars = cars.filter(c => {
     if (filterBrand!=="All" && c.make!==filterBrand) return false;
@@ -287,7 +286,6 @@ export default function App() {
       if (!selectedClientId) { showToast("Select a client first.", "error"); return; }
       receiverId = selectedClientId;
     } else {
-      // Use cached adminId, or fetch it
       let aid = adminId;
       if (!aid) aid = await fetchAdminId();
       if (!aid) { showToast("Admin not found.", "error"); return; }
@@ -300,16 +298,16 @@ export default function App() {
   // ── Admin CRUD ────────────────────────────────────────────────
   const addCar = async () => {
     if (!newCar.make||!newCar.model||!newCar.price) { showToast("Fill required fields.","error"); return; }
-    const img = addPhotoUrl || "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&q=80";
+    const images = addPhotoUrls.length ? addPhotoUrls : ["https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=800&q=80"];
     const { error } = await supabase.from("cars").insert({
       make:newCar.make, model:newCar.model, year:parseInt(newCar.year)||2023,
       price:parseInt(newCar.price)||0, mileage:parseInt(newCar.mileage)||0,
       fuel:newCar.fuel, transmission:newCar.transmission, color:newCar.color,
       engine:newCar.engine, description:newCar.description, status:newCar.status,
-      featured:newCar.featured, owners:1, image_urls:JSON.stringify([img])
+      featured:newCar.featured, owners:1, image_urls:JSON.stringify(images)
     });
     if (!error) {
-      showToast("Car added!"); setShowAddCar(false); setAddPhotoUrl("");
+      showToast("Car added!"); setShowAddCar(false); setAddPhotoUrls([]);
       setNewCar({ make:"",model:"",year:"",price:"",mileage:"",fuel:"Petrol",transmission:"Automatic",color:"",engine:"",description:"",status:"available",featured:false });
       loadCars();
     } else showToast(error.message,"error");
@@ -318,9 +316,9 @@ export default function App() {
   const updateCar = async () => {
     if (!editingCar) return;
     const updates = { make:editingCar.make, model:editingCar.model, price:parseInt(editingCar.price)||0, mileage:parseInt(editingCar.mileage)||0, color:editingCar.color, status:editingCar.status, featured:editingCar.featured };
-    if (editPhotoUrl) updates.image_urls = JSON.stringify([editPhotoUrl]);
+    if (editPhotoUrls.length) updates.image_urls = JSON.stringify(editPhotoUrls);
     const { error } = await supabase.from("cars").update(updates).eq("id", editingCar.id);
-    if (!error) { showToast("Car updated!"); setEditingCar(null); setEditPhotoUrl(""); loadCars(); }
+    if (!error) { showToast("Car updated!"); setEditingCar(null); setEditPhotoUrls([]); loadCars(); }
     else showToast(error.message,"error");
   };
 
@@ -330,80 +328,98 @@ export default function App() {
     showToast("Car deleted.","error");
   };
 
-  // ── Styles ────────────────────────────────────────────────────
+  // ── Styles (new black/white theme, responsive) ────────────────
   const S = {
-    app:         { fontFamily:"'Sora',sans-serif", background:"#070A0F", minHeight:"100vh", color:"#E8E2D9", direction:isRTL?"rtl":"ltr" },
-    loginWrap:   { minHeight:"100vh", background:"linear-gradient(135deg,#070A0F 0%,#0D1520 50%,#070A0F 100%)", display:"flex", alignItems:"center", justifyContent:"center", padding:"20px", position:"relative", overflow:"hidden" },
-    loginCard:   { background:"rgba(255,255,255,0.04)", backdropFilter:"blur(20px)", border:"1px solid rgba(201,168,76,0.2)", borderRadius:"20px", padding:"48px 40px", width:"100%", maxWidth:"420px", zIndex:2, position:"relative" },
-    input:       { width:"100%", background:"rgba(255,255,255,0.06)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:"10px", padding:"13px 16px", color:"#E8E2D9", fontSize:"14px", outline:"none", boxSizing:"border-box", marginBottom:"14px" },
-    btnGold:     { width:"100%", background:"linear-gradient(135deg,#C9A84C,#E8C96A)", color:"#070A0F", border:"none", borderRadius:"10px", padding:"14px", fontWeight:700, fontSize:"15px", cursor:"pointer", fontFamily:"'Sora',sans-serif" },
-    btnOutline:  { background:"transparent", border:"1px solid rgba(201,168,76,0.4)", color:"#C9A84C", borderRadius:"8px", padding:"10px 20px", cursor:"pointer", fontSize:"13px", fontFamily:"'Sora',sans-serif", fontWeight:600 },
+    app:         { fontFamily:"'Sora',sans-serif", background:"#ffffff", minHeight:"100vh", color:"#000000", direction:isRTL?"rtl":"ltr" },
+    loginWrap:   { minHeight:"100vh", background:"linear-gradient(135deg,#f5f5f5 0%,#ffffff 100%)", display:"flex", alignItems:"center", justifyContent:"center", padding:"20px", position:"relative", overflow:"hidden" },
+    loginCard:   { background:"rgba(0,0,0,0.02)", backdropFilter:"blur(10px)", border:"1px solid rgba(0,0,0,0.1)", borderRadius:"20px", padding:"48px 40px", width:"100%", maxWidth:"420px", zIndex:2, position:"relative", boxShadow:"0 10px 25px rgba(0,0,0,0.1)" },
+    input:       { width:"100%", background:"#fafafa", border:"1px solid #ddd", borderRadius:"10px", padding:"13px 16px", color:"#000", fontSize:"14px", outline:"none", boxSizing:"border-box", marginBottom:"14px", transition:"border 0.2s" },
+    btnGold:     { width:"100%", background:"#000", color:"#fff", border:"none", borderRadius:"10px", padding:"14px", fontWeight:700, fontSize:"15px", cursor:"pointer", fontFamily:"'Sora',sans-serif" },
+    btnOutline:  { background:"transparent", border:"1px solid #000", color:"#000", borderRadius:"8px", padding:"10px 20px", cursor:"pointer", fontSize:"13px", fontFamily:"'Sora',sans-serif", fontWeight:600 },
     error:       { color:"#ef4444", fontSize:"13px", marginBottom:"12px", textAlign:"center" },
-    nav:         { background:"rgba(7,10,15,0.95)", backdropFilter:"blur(20px)", borderBottom:"1px solid rgba(255,255,255,0.06)", padding:"0 20px", position:"sticky", top:0, zIndex:100, display:"flex", alignItems:"center", justifyContent:"space-between", height:"64px" },
-    navLogo:     { fontFamily:"'Playfair Display',serif", fontSize:"20px", fontWeight:700, color:"#C9A84C", cursor:"pointer" },
-    navLink:     a => ({ padding:"7px 14px", borderRadius:"8px", fontSize:"13px", cursor:"pointer", color:a?"#C9A84C":"#8A8070", fontWeight:a?600:500, background:a?"rgba(201,168,76,0.1)":"transparent", border:"none", fontFamily:"'Sora',sans-serif" }),
-    langToggle:  { background:"transparent", border:"1px solid rgba(201,168,76,0.3)", color:"#C9A84C", borderRadius:"6px", padding:"4px 10px", fontSize:"12px", fontWeight:600, cursor:"pointer" },
-    avatar:      { width:"36px", height:"36px", borderRadius:"50%", background:"linear-gradient(135deg,#C9A84C,#E8C96A)", color:"#070A0F", display:"flex", alignItems:"center", justifyContent:"center", fontWeight:700, fontSize:"13px", flexShrink:0 },
+    nav:         { background:"#fff", borderBottom:"1px solid #eee", padding:"0 20px", position:"sticky", top:0, zIndex:100, display:"flex", alignItems:"center", justifyContent:"space-between", height:"64px", boxShadow:"0 2px 8px rgba(0,0,0,0.05)" },
+    navLogo:     { fontFamily:"'Playfair Display',serif", fontSize:"20px", fontWeight:700, color:"#000", cursor:"pointer" },
+    navLink:     a => ({ padding:"7px 14px", borderRadius:"8px", fontSize:"13px", cursor:"pointer", color:a?"#fff":"#000", fontWeight:a?600:500, background:a?"#000":"transparent", border:"none", fontFamily:"'Sora',sans-serif" }),
+    langToggle:  { background:"transparent", border:"1px solid #000", color:"#000", borderRadius:"6px", padding:"4px 10px", fontSize:"12px", fontWeight:600, cursor:"pointer" },
+    avatar:      { width:"36px", height:"36px", borderRadius:"50%", background:"#000", color:"#fff", display:"flex", alignItems:"center", justifyContent:"center", fontWeight:700, fontSize:"13px", flexShrink:0 },
     page:        { padding:"24px 20px", maxWidth:"1100px", margin:"0 auto" },
-    pageTitle:   { fontFamily:"'Playfair Display',serif", fontSize:"28px", fontWeight:700, color:"#E8E2D9", marginBottom:"6px" },
-    pageSub:     { color:"#8A8070", fontSize:"14px", marginBottom:"28px" },
+    pageTitle:   { fontFamily:"'Playfair Display',serif", fontSize:"28px", fontWeight:700, color:"#000", marginBottom:"6px" },
+    pageSub:     { color:"#666", fontSize:"14px", marginBottom:"28px" },
     carGrid:     { display:"grid", gridTemplateColumns:"repeat(auto-fill,minmax(280px,1fr))", gap:"20px" },
-    carCard:     { background:"rgba(255,255,255,0.04)", border:"1px solid rgba(255,255,255,0.07)", borderRadius:"16px", overflow:"hidden", cursor:"pointer" },
-    carImg:      { width:"100%", height:"180px", objectFit:"cover", background:"#111" },
+    carCard:     { background:"#fff", border:"1px solid #eee", borderRadius:"16px", overflow:"hidden", cursor:"pointer", boxShadow:"0 4px 12px rgba(0,0,0,0.05)" },
+    carImg:      { width:"100%", height:"180px", objectFit:"cover", background:"#f0f0f0" },
     carBody:     { padding:"16px" },
-    carMake:     { fontSize:"11px", color:"#C9A84C", fontWeight:700, letterSpacing:"1.5px", textTransform:"uppercase" },
-    carName:     { fontSize:"17px", fontWeight:700, color:"#E8E2D9", marginTop:"2px", marginBottom:"4px" },
-    carPrice:    { fontSize:"20px", fontWeight:800, color:"#C9A84C", fontFamily:"'Playfair Display',serif" },
+    carMake:     { fontSize:"11px", color:"#888", fontWeight:700, letterSpacing:"1.5px", textTransform:"uppercase" },
+    carName:     { fontSize:"17px", fontWeight:700, color:"#000", marginTop:"2px", marginBottom:"4px" },
+    carPrice:    { fontSize:"20px", fontWeight:800, color:"#000", fontFamily:"'Playfair Display',serif" },
     badge:       s => ({ display:"inline-block", padding:"3px 10px", borderRadius:"20px", fontSize:"11px", fontWeight:700, textTransform:"uppercase", background:statusBg(s), color:statusColor(s), border:`1px solid ${statusColor(s)}40` }),
     filterBar:   { display:"flex", gap:"10px", flexWrap:"wrap", marginBottom:"24px", alignItems:"center" },
-    filterSel:   { background:"rgba(255,255,255,0.06)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:"8px", padding:"9px 14px", color:"#E8E2D9", fontSize:"13px", outline:"none" },
-    searchInp:   { background:"rgba(255,255,255,0.06)", border:"1px solid rgba(255,255,255,0.1)", borderRadius:"8px", padding:"9px 14px", color:"#E8E2D9", fontSize:"13px", outline:"none", flex:"1", minWidth:"180px" },
-    chatWrap:    { display:"flex", flexDirection:"column", flex:1, background:"rgba(255,255,255,0.02)", borderRadius:"16px", border:"1px solid rgba(255,255,255,0.07)", overflow:"hidden" },
-    chatHeader:  { padding:"16px 20px", borderBottom:"1px solid rgba(255,255,255,0.07)", background:"rgba(255,255,255,0.04)" },
-    chatBody:    { flex:1, overflowY:"auto", padding:"20px", display:"flex", flexDirection:"column", gap:"12px" },
-    chatInputRow:{ display:"flex", gap:"10px", padding:"16px 20px", borderTop:"1px solid rgba(255,255,255,0.07)", background:"rgba(255,255,255,0.04)" },
-    msgBubble:   (isMe,isAdm) => ({ maxWidth:"70%", alignSelf:isMe?"flex-end":"flex-start", background:isAdm&&!isMe?"rgba(201,168,76,0.15)":isMe?"rgba(27,58,107,0.8)":"rgba(255,255,255,0.07)", border:isAdm&&!isMe?"1px solid rgba(201,168,76,0.3)":"1px solid rgba(255,255,255,0.08)", borderRadius:isMe?"16px 16px 4px 16px":"16px 16px 16px 4px", padding:"10px 14px" }),
-    msgSender:   { fontSize:"11px", fontWeight:700, color:"#C9A84C", marginBottom:"4px" },
-    msgText:     { fontSize:"14px", color:"#E8E2D9", lineHeight:"1.5" },
-    msgTime:     { fontSize:"10px", color:"#666", marginTop:"4px" },
-    statCard:    { background:"rgba(255,255,255,0.04)", border:"1px solid rgba(255,255,255,0.07)", borderRadius:"14px", padding:"24px", flex:"1", minWidth:"160px" },
-    statNum:     { fontFamily:"'Playfair Display',serif", fontSize:"36px", fontWeight:700, color:"#C9A84C" },
-    statLabel:   { fontSize:"12px", color:"#8A8070", marginTop:"4px", fontWeight:600, textTransform:"uppercase" },
+    filterSel:   { background:"#fafafa", border:"1px solid #ddd", borderRadius:"8px", padding:"9px 14px", color:"#000", fontSize:"13px", outline:"none" },
+    searchInp:   { background:"#fafafa", border:"1px solid #ddd", borderRadius:"8px", padding:"9px 14px", color:"#000", fontSize:"13px", outline:"none", flex:"1", minWidth:"180px" },
+    chatWrap:    { display:"flex", flexDirection:"column", flex:1, background:"#fafafa", borderRadius:"16px", border:"1px solid #eee", overflow:"hidden" },
+    chatHeader:  { padding:"16px 20px", borderBottom:"1px solid #eee", background:"#fff" },
+    chatBody:    { flex:1, overflowY:"auto", padding:"20px", display:"flex", flexDirection:"column", gap:"12px", background:"#fff" },
+    chatInputRow:{ display:"flex", gap:"10px", padding:"16px 20px", borderTop:"1px solid #eee", background:"#fff" },
+    msgBubble:   (isMe,isAdm) => ({ maxWidth:"70%", alignSelf:isMe?"flex-end":"flex-start", background:isAdm&&!isMe?"#e0e0e0":isMe?"#000":"#f0f0f0", border:"1px solid transparent", borderRadius:isMe?"16px 16px 4px 16px":"16px 16px 16px 4px", padding:"10px 14px", color:isMe?"#fff":"#000" }),
+    msgSender:   { fontSize:"11px", fontWeight:700, color:"#888", marginBottom:"4px" },
+    msgText:     { fontSize:"14px", lineHeight:"1.5" },
+    msgTime:     { fontSize:"10px", color:"#aaa", marginTop:"4px" },
+    statCard:    { background:"#fff", border:"1px solid #eee", borderRadius:"14px", padding:"24px", flex:"1", minWidth:"160px" },
+    statNum:     { fontFamily:"'Playfair Display',serif", fontSize:"36px", fontWeight:700, color:"#000" },
+    statLabel:   { fontSize:"12px", color:"#666", marginTop:"4px", fontWeight:600, textTransform:"uppercase" },
     table:       { width:"100%", borderCollapse:"collapse" },
-    th:          { padding:"12px 16px", textAlign:"left", fontSize:"11px", color:"#8A8070", fontWeight:700, letterSpacing:"1px", textTransform:"uppercase", borderBottom:"1px solid rgba(255,255,255,0.07)" },
-    td:          { padding:"14px 16px", fontSize:"13px", color:"#E8E2D9", borderBottom:"1px solid rgba(255,255,255,0.04)" },
-    modal:       { position:"fixed", inset:0, background:"rgba(0,0,0,0.75)", backdropFilter:"blur(6px)", display:"flex", alignItems:"center", justifyContent:"center", zIndex:200, padding:"20px" },
-    modalCard:   { background:"#0D1520", border:"1px solid rgba(201,168,76,0.2)", borderRadius:"20px", padding:"32px", width:"100%", maxWidth:"520px", maxHeight:"88vh", overflowY:"auto" },
-    toast:       t => ({ position:"fixed", bottom:"24px", right:"24px", background:t==="error"?"#7f1d1d":"#052e16", border:`1px solid ${t==="error"?"#ef4444":"#22c55e"}40`, color:t==="error"?"#fca5a5":"#86efac", padding:"12px 20px", borderRadius:"12px", fontSize:"14px", fontWeight:600, zIndex:300, boxShadow:"0 8px 32px rgba(0,0,0,0.4)" }),
-    mobileNav:   { display:"flex", justifyContent:"space-around", padding:"12px 0", background:"rgba(7,10,15,0.97)", borderTop:"1px solid rgba(255,255,255,0.07)", position:"fixed", bottom:0, left:0, right:0, zIndex:100 },
-    mobileBtn:   a => ({ display:"flex", flexDirection:"column", alignItems:"center", gap:"3px", cursor:"pointer", color:a?"#C9A84C":"#555", fontSize:"10px", fontWeight:600, background:"none", border:"none", fontFamily:"'Sora',sans-serif" }),
+    th:          { padding:"12px 16px", textAlign:"left", fontSize:"11px", color:"#666", fontWeight:700, letterSpacing:"1px", textTransform:"uppercase", borderBottom:"1px solid #eee" },
+    td:          { padding:"14px 16px", fontSize:"13px", color:"#000", borderBottom:"1px solid #f0f0f0" },
+    modal:       { position:"fixed", inset:0, background:"rgba(0,0,0,0.3)", backdropFilter:"blur(6px)", display:"flex", alignItems:"center", justifyContent:"center", zIndex:200, padding:"20px" },
+    modalCard:   { background:"#fff", border:"1px solid #eee", borderRadius:"20px", padding:"32px", width:"100%", maxWidth:"520px", maxHeight:"88vh", overflowY:"auto", boxShadow:"0 20px 40px rgba(0,0,0,0.2)" },
+    toast:       t => ({ position:"fixed", bottom:"24px", right:"24px", background:t==="error"?"#ef4444":"#10b981", color:"#fff", padding:"12px 20px", borderRadius:"12px", fontSize:"14px", fontWeight:600, zIndex:300, boxShadow:"0 8px 32px rgba(0,0,0,0.1)" }),
+    mobileNav:   { display:"flex", justifyContent:"space-around", padding:"12px 0", background:"#fff", borderTop:"1px solid #eee", position:"fixed", bottom:0, left:0, right:0, zIndex:100 },
+    mobileBtn:   a => ({ display:"flex", flexDirection:"column", alignItems:"center", gap:"3px", cursor:"pointer", color:a?"#000":"#999", fontSize:"10px", fontWeight:600, background:"none", border:"none", fontFamily:"'Sora',sans-serif" }),
     waBtn:       { display:"flex", alignItems:"center", justifyContent:"center", background:"#25D366", color:"white", border:"none", borderRadius:"8px", padding:"8px 16px", fontSize:"13px", fontWeight:600, cursor:"pointer", width:"100%", marginTop:"8px" },
-    detailBack:  { display:"flex", alignItems:"center", gap:"8px", color:"#C9A84C", cursor:"pointer", marginBottom:"24px", fontSize:"14px", fontWeight:600, background:"none", border:"none", fontFamily:"'Sora',sans-serif" },
-    lbl:         { fontSize:"12px", color:"#8A8070", fontWeight:600, display:"block", marginBottom:"4px" },
-    uploadBox:   has => ({ border:`2px dashed ${has?"#22c55e":"rgba(201,168,76,0.4)"}`, borderRadius:"10px", padding:"16px", textAlign:"center", cursor:"pointer", background:has?"rgba(34,197,94,0.06)":"rgba(201,168,76,0.04)", marginBottom:"14px" }),
+    detailBack:  { display:"flex", alignItems:"center", gap:"8px", color:"#000", cursor:"pointer", marginBottom:"24px", fontSize:"14px", fontWeight:600, background:"none", border:"none", fontFamily:"'Sora',sans-serif" },
+    lbl:         { fontSize:"12px", color:"#666", fontWeight:600, display:"block", marginBottom:"4px" },
+    uploadBox:   has => ({ border:`2px dashed ${has?"#10b981":"#ddd"}`, borderRadius:"10px", padding:"16px", textAlign:"center", cursor:"pointer", background:has?"rgba(16,185,129,0.05)":"#fafafa", marginBottom:"14px" }),
+    imagePreviewRow: { display:"flex", gap:"8px", flexWrap:"wrap", marginBottom:"14px" },
+    previewImg:  { width:"70px", height:"70px", objectFit:"cover", borderRadius:"6px", border:"1px solid #ddd" },
   };
 
   const css = `
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Sora:wght@400;500;600;700;800&display=swap');
-    body{margin:0;padding-bottom:70px}
-    input:focus,textarea:focus,select:focus{border-color:rgba(201,168,76,0.5)!important;box-shadow:0 0 0 3px rgba(201,168,76,0.08)!important}
-    ::-webkit-scrollbar{width:4px}::-webkit-scrollbar-thumb{background:#2a2a2a;border-radius:4px}
-    @media(max-width:640px){.hide-mobile{display:none!important}.car-grid{grid-template-columns:1fr!important}.detail-grid{grid-template-columns:1fr!important}}
+    body { margin:0; padding-bottom:70px; background:#fff; }
+    input:focus, textarea:focus, select:focus { border-color:#000!important; box-shadow:0 0 0 3px rgba(0,0,0,0.1)!important; }
+    ::-webkit-scrollbar { width:4px; } ::-webkit-scrollbar-thumb { background:#ccc; border-radius:4px; }
+    @media (max-width:640px) {
+      .hide-mobile { display:none!important; }
+      .car-grid { grid-template-columns:1fr!important; }
+      .detail-grid { grid-template-columns:1fr!important; }
+      .filter-bar { flex-direction:column; align-items:stretch; }
+      .filter-bar > * { width:100%; }
+      .admin-tabs { flex-wrap:wrap; }
+      .page-title { font-size:24px; }
+    }
+    @media (min-width:641px) and (max-width:1024px) {
+      .car-grid { grid-template-columns:repeat(2,1fr); }
+    }
   `;
 
-  // ── Upload box widget ─────────────────────────────────────────
-  const UploadBox = ({ uid, url, loading, onFile }) => (
+  // ── Upload box widget (supports multiple) ─────────────────────
+  const UploadBox = ({ urls, setUrls, uploading }) => (
     <div>
       <label style={S.lbl}>{t.uploadPhoto}</label>
-      <div style={S.uploadBox(!!url)} onClick={() => document.getElementById(uid).click()}>
-        {loading
-          ? <div style={{color:"#C9A84C",fontSize:"13px"}}>⏳ {t.uploading}</div>
-          : url
-            ? <><img src={url} style={{width:"100%",height:"90px",objectFit:"cover",borderRadius:"6px",marginBottom:"6px"}} /><div style={{color:"#22c55e",fontSize:"12px",fontWeight:600}}>{t.photoUploaded}</div></>
-            : <><div style={{fontSize:"28px",marginBottom:"4px"}}>📷</div><div style={{color:"#C9A84C",fontSize:"13px",fontWeight:600}}>{t.clickToUpload}</div><div style={{color:"#555",fontSize:"11px"}}>JPG · PNG · WEBP</div></>
+      <div style={S.uploadBox(urls.length > 0)} onClick={() => document.getElementById('file-upload').click()}>
+        {uploading
+          ? <div style={{color:"#000",fontSize:"13px"}}>⏳ {t.uploading}</div>
+          : urls.length > 0
+            ? <><div style={{color:"#10b981",fontSize:"12px",fontWeight:600}}>{t.photoUploaded} ({urls.length})</div><div style={{color:"#666",fontSize:"11px",marginTop:"4px"}}>{t.addMorePhotos}</div></>
+            : <><div style={{fontSize:"28px",marginBottom:"4px"}}>📷</div><div style={{color:"#000",fontSize:"13px",fontWeight:600}}>{t.clickToUpload}</div><div style={{color:"#888",fontSize:"11px"}}>JPG · PNG · WEBP</div></>
         }
       </div>
-      <input id={uid} type="file" accept="image/*" style={{display:"none"}} onChange={e=>onFile(e.target.files[0])} />
+      {urls.length > 0 && (
+        <div style={S.imagePreviewRow}>
+          {urls.map((url,i) => <img key={i} src={url} style={S.previewImg} alt="preview" />)}
+        </div>
+      )}
+      <input id="file-upload" type="file" accept="image/*" style={{display:"none"}} onChange={e=>uploadPhoto(e.target.files[0], setUrls, urls)} />
     </div>
   );
 
@@ -413,12 +429,11 @@ export default function App() {
   if (!user) return (
     <div style={S.loginWrap} dir={isRTL?"rtl":"ltr"}>
       <style>{css}</style>
-      <div style={{position:"absolute",width:"400px",height:"400px",borderRadius:"50%",background:"radial-gradient(circle,rgba(201,168,76,0.07) 0%,transparent 70%)",top:"-100px",right:"-100px",pointerEvents:"none"}} />
       <div style={S.loginCard}>
         <div style={{textAlign:"center",marginBottom:"32px"}}>
-          <div style={{fontFamily:"'Playfair Display',serif",fontSize:"13px",letterSpacing:"4px",color:"#C9A84C",textTransform:"uppercase"}}>Yammine</div>
-          <div style={{fontFamily:"'Playfair Display',serif",fontSize:"32px",fontWeight:800,color:"#E8E2D9",lineHeight:1}}>MOTORS</div>
-          <div style={{width:"40px",height:"2px",background:"linear-gradient(90deg,#C9A84C,transparent)",margin:"10px auto 0"}} />
+          <div style={{fontFamily:"'Playfair Display',serif",fontSize:"13px",letterSpacing:"4px",color:"#000",textTransform:"uppercase"}}>Yammine</div>
+          <div style={{fontFamily:"'Playfair Display',serif",fontSize:"32px",fontWeight:800,color:"#000",lineHeight:1}}>MOTORS</div>
+          <div style={{width:"40px",height:"2px",background:"#000",margin:"10px auto 0"}} />
         </div>
         <div style={{display:"flex",justifyContent:"center",marginBottom:"20px"}}>
           <button style={S.langToggle} onClick={()=>setLang(l=>l==="en"?"ar":"en")}>{lang==="en"?"العربية":"English"}</button>
@@ -428,14 +443,14 @@ export default function App() {
           <input style={S.input} placeholder={t.password} value={loginPass} onChange={e=>setLoginPass(e.target.value)} onKeyDown={e=>e.key==="Enter"&&login()} type="password" />
           {loginError && <div style={S.error}>{loginError}</div>}
           <button style={S.btnGold} onClick={login}>{t.login}</button>
-          <p style={{textAlign:"center",color:"#555",fontSize:"13px",marginTop:"20px"}}>{t.noAccount} <span style={{color:"#C9A84C",cursor:"pointer",fontWeight:600}} onClick={()=>{setRegMode(true);setLoginError("")}}>{t.register}</span></p>
+          <p style={{textAlign:"center",color:"#888",fontSize:"13px",marginTop:"20px"}}>{t.noAccount} <span style={{color:"#000",cursor:"pointer",fontWeight:600}} onClick={()=>{setRegMode(true);setLoginError("")}}>{t.register}</span></p>
         </> : <>
           <input style={S.input} placeholder={t.fullName} value={regName} onChange={e=>setRegName(e.target.value)} />
           <input style={S.input} placeholder={t.email} value={regEmail} onChange={e=>setRegEmail(e.target.value)} type="email" />
           <input style={S.input} placeholder={t.password} value={regPass} onChange={e=>setRegPass(e.target.value)} type="password" />
           {loginError && <div style={S.error}>{loginError}</div>}
           <button style={S.btnGold} onClick={register}>{t.register}</button>
-          <p style={{textAlign:"center",color:"#555",fontSize:"13px",marginTop:"20px"}}>{t.haveAccount} <span style={{color:"#C9A84C",cursor:"pointer",fontWeight:600}} onClick={()=>{setRegMode(false);setLoginError("")}}>{t.login}</span></p>
+          <p style={{textAlign:"center",color:"#888",fontSize:"13px",marginTop:"20px"}}>{t.haveAccount} <span style={{color:"#000",cursor:"pointer",fontWeight:600}} onClick={()=>{setRegMode(false);setLoginError("")}}>{t.login}</span></p>
         </>}
       </div>
     </div>
@@ -458,8 +473,7 @@ export default function App() {
               <button key={pg} className="hide-mobile" style={S.navLink(page===pg)} onClick={()=>setPage(pg)}>{lb}</button>
             ))}
           </>}
-          {user.role==="admin" && <button className="hide-mobile" style={S.navLink(true)}>{t.admin}</button>}
-          <button style={{...S.btnOutline,padding:"7px 12px",fontSize:"12px"}} onClick={()=>setCurrency(c=>c==="USD"?"LBP":"USD")}>{currency}</button>
+          {user.role==="admin" && <button className="hide-mobile" style={S.navLink(page==="adminDashboard")} onClick={()=>setPage("adminDashboard")}>{t.admin}</button>}
           <div style={S.avatar}>{user.avatar}</div>
           <button style={{...S.btnOutline,padding:"7px 12px",fontSize:"12px"}} onClick={logout}>{t.logout}</button>
         </div>
@@ -472,11 +486,11 @@ export default function App() {
         {page==="home" && (
           <div style={{paddingBottom:"80px"}}>
             <div style={{position:"relative",height:"360px",overflow:"hidden"}}>
-              <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=1200&q=80" style={{width:"100%",height:"100%",objectFit:"cover",filter:"brightness(0.3)"}} />
-              <div style={{position:"absolute",inset:0,display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",textAlign:"center",padding:"20px"}}>
-                <div style={{fontSize:"11px",letterSpacing:"4px",color:"#C9A84C",marginBottom:"12px",textTransform:"uppercase"}}>Batroun Open Space · Lebanon</div>
-                <h1 style={{fontFamily:"'Playfair Display',serif",fontSize:"40px",fontWeight:800,color:"#E8E2D9",margin:"0 0 12px",lineHeight:1.15}}>Drive Your<br/>Dream Car</h1>
-                <p style={{color:"#A09080",fontSize:"15px",marginBottom:"24px",maxWidth:"360px"}}>Premium vehicles, transparent pricing, a showroom experience like no other.</p>
+              <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=1200&q=80" style={{width:"100%",height:"100%",objectFit:"cover",filter:"brightness(0.8)"}} />
+              <div style={{position:"absolute",inset:0,display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",textAlign:"center",padding:"20px",background:"rgba(255,255,255,0.7)"}}>
+                <div style={{fontSize:"11px",letterSpacing:"4px",color:"#000",marginBottom:"12px",textTransform:"uppercase"}}>Batroun Open Space · Lebanon</div>
+                <h1 style={{fontFamily:"'Playfair Display',serif",fontSize:"40px",fontWeight:800,color:"#000",margin:"0 0 12px",lineHeight:1.15}}>Drive Your<br/>Dream Car</h1>
+                <p style={{color:"#333",fontSize:"15px",marginBottom:"24px",maxWidth:"360px"}}>Premium vehicles, transparent pricing, a showroom experience like no other.</p>
                 <div style={{display:"flex",gap:"12px",flexWrap:"wrap",justifyContent:"center"}}>
                   <button style={{...S.btnGold,width:"auto",padding:"13px 28px"}} onClick={()=>setPage("inventory")}>{t.browseInventory}</button>
                   <button style={{...S.btnOutline,padding:"13px 28px"}} onClick={()=>setPage("privateChat")}>{t.contactOwner}</button>
@@ -486,8 +500,8 @@ export default function App() {
             <div style={S.page}>
               <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"20px"}}>
                 <div>
-                  <h2 style={{fontFamily:"'Playfair Display',serif",fontSize:"24px",color:"#E8E2D9",margin:0}}>{t.featuredCars}</h2>
-                  <p style={{color:"#8A8070",fontSize:"13px",margin:"4px 0 0"}}>{t.handPicked}</p>
+                  <h2 style={{fontFamily:"'Playfair Display',serif",fontSize:"24px",color:"#000",margin:0}}>{t.featuredCars}</h2>
+                  <p style={{color:"#666",fontSize:"13px",margin:"4px 0 0"}}>{t.handPicked}</p>
                 </div>
                 <button style={{...S.btnOutline,padding:"8px 16px",fontSize:"12px"}} onClick={()=>setPage("inventory")}>{t.viewAll}</button>
               </div>
@@ -497,16 +511,16 @@ export default function App() {
                     <div style={{position:"relative"}}>
                       <img src={c.images[0]} alt={c.model} style={S.carImg} onError={e=>e.target.style.opacity=0.3} />
                       <div style={{position:"absolute",top:"10px",left:"10px"}}><span style={S.badge(c.status)}>{t[c.status]}</span></div>
-                      <button onClick={e=>{e.stopPropagation();toggleFav(c.id)}} style={{position:"absolute",top:"10px",right:"10px",background:"rgba(0,0,0,0.5)",border:"none",borderRadius:"50%",width:"32px",height:"32px",cursor:"pointer",fontSize:"16px"}}>
+                      <button onClick={e=>{e.stopPropagation();toggleFav(c.id)}} style={{position:"absolute",top:"10px",right:"10px",background:"#fff",border:"none",borderRadius:"50%",width:"32px",height:"32px",cursor:"pointer",fontSize:"16px",boxShadow:"0 2px 8px rgba(0,0,0,0.1)"}}>
                         {favorites.includes(c.id)?"❤️":"🤍"}
                       </button>
                     </div>
                     <div style={S.carBody}>
                       <div style={S.carMake}>{c.make}</div>
-                      <div style={S.carName}>{c.model} <span style={{color:"#666",fontWeight:400,fontSize:"14px"}}>{c.year}</span></div>
+                      <div style={S.carName}>{c.model} <span style={{color:"#888",fontWeight:400,fontSize:"14px"}}>{c.year}</span></div>
                       <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"6px"}}>
                         <span style={S.carPrice}>{fmt(c.price)}</span>
-                        <span style={{fontSize:"12px",color:"#666"}}>{c.mileage?.toLocaleString()} km</span>
+                        <span style={{fontSize:"12px",color:"#888"}}>{c.mileage?.toLocaleString()} km</span>
                       </div>
                       <a href={`https://wa.me/${WHATSAPP}?text=I'm interested in ${c.make} ${c.model} ${c.year}`} target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}} onClick={e=>e.stopPropagation()}>
                         <button style={S.waBtn}>{t.contactViaWhatsApp}</button>
@@ -517,9 +531,9 @@ export default function App() {
               </div>
               <div style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:"14px",marginTop:"36px"}}>
                 {[[cars.filter(c=>c.status==="available").length,t.inStock],["Batroun",t.openAirShowroom],["Direct",t.directChat]].map(([v,lb],i)=>(
-                  <div key={i} style={{background:"rgba(255,255,255,0.03)",border:"1px solid rgba(255,255,255,0.07)",borderRadius:"12px",padding:"20px",textAlign:"center"}}>
-                    <div style={{fontFamily:"'Playfair Display',serif",fontSize:"20px",fontWeight:700,color:"#C9A84C"}}>{v}</div>
-                    <div style={{fontSize:"12px",color:"#666",marginTop:"2px"}}>{lb}</div>
+                  <div key={i} style={{background:"#fafafa",border:"1px solid #eee",borderRadius:"12px",padding:"20px",textAlign:"center"}}>
+                    <div style={{fontFamily:"'Playfair Display',serif",fontSize:"20px",fontWeight:700,color:"#000"}}>{v}</div>
+                    <div style={{fontSize:"12px",color:"#888",marginTop:"2px"}}>{lb}</div>
                   </div>
                 ))}
               </div>
@@ -532,7 +546,7 @@ export default function App() {
           <div style={S.page}>
             <h1 style={S.pageTitle}>{t.carInventory}</h1>
             <p style={S.pageSub}>{filteredCars.length} {t.carsFound}</p>
-            <div style={S.filterBar}>
+            <div style={S.filterBar} className="filter-bar">
               <input style={S.searchInp} placeholder={t.searchPlaceholder} value={searchQ} onChange={e=>setSearchQ(e.target.value)} />
               <select style={S.filterSel} value={filterBrand} onChange={e=>setFilterBrand(e.target.value)}>
                 {brands.map(b=><option key={b} value={b}>{b==="All"?t.filterBrand:b}</option>)}
@@ -547,16 +561,16 @@ export default function App() {
                   <div style={{position:"relative"}}>
                     <img src={c.images[0]} alt={c.model} style={S.carImg} onError={e=>e.target.style.opacity=0.3} />
                     <div style={{position:"absolute",top:"10px",left:"10px"}}><span style={S.badge(c.status)}>{t[c.status]}</span></div>
-                    <button onClick={e=>{e.stopPropagation();toggleFav(c.id)}} style={{position:"absolute",top:"10px",right:"10px",background:"rgba(0,0,0,0.5)",border:"none",borderRadius:"50%",width:"32px",height:"32px",cursor:"pointer",fontSize:"16px"}}>
+                    <button onClick={e=>{e.stopPropagation();toggleFav(c.id)}} style={{position:"absolute",top:"10px",right:"10px",background:"#fff",border:"none",borderRadius:"50%",width:"32px",height:"32px",cursor:"pointer",fontSize:"16px",boxShadow:"0 2px 8px rgba(0,0,0,0.1)"}}>
                       {favorites.includes(c.id)?"❤️":"🤍"}
                     </button>
                   </div>
                   <div style={S.carBody}>
                     <div style={S.carMake}>{c.make}</div>
-                    <div style={S.carName}>{c.model} <span style={{color:"#666",fontWeight:400,fontSize:"14px"}}>{c.year}</span></div>
+                    <div style={S.carName}>{c.model} <span style={{color:"#888",fontWeight:400,fontSize:"14px"}}>{c.year}</span></div>
                     <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:"6px"}}>
                       <span style={S.carPrice}>{fmt(c.price)}</span>
-                      <span style={{fontSize:"12px",color:"#666"}}>{c.mileage?.toLocaleString()} km</span>
+                      <span style={{fontSize:"12px",color:"#888"}}>{c.mileage?.toLocaleString()} km</span>
                     </div>
                     <a href={`https://wa.me/${WHATSAPP}?text=I'm interested in ${c.make} ${c.model} ${c.year}`} target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}} onClick={e=>e.stopPropagation()}>
                       <button style={S.waBtn}>{t.contactViaWhatsApp}</button>
@@ -565,7 +579,7 @@ export default function App() {
                 </div>
               ))}
             </div>
-            {filteredCars.length===0 && <div style={{textAlign:"center",padding:"60px 20px",color:"#555",fontSize:"15px"}}>No cars match your filters.</div>}
+            {filteredCars.length===0 && <div style={{textAlign:"center",padding:"60px 20px",color:"#888",fontSize:"15px"}}>No cars match your filters.</div>}
           </div>
         )}
 
@@ -575,10 +589,10 @@ export default function App() {
             <button style={S.detailBack} onClick={()=>setPage("inventory")}>← {t.inventory}</button>
             <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"28px"}} className="detail-grid">
               <div>
-                {selectedCar.images[carPhoto] && <img src={selectedCar.images[carPhoto]} alt="" style={{width:"100%",height:"320px",objectFit:"cover",borderRadius:"16px",marginBottom:"12px"}} />}
-                <div style={{display:"flex",gap:"8px"}}>
+                {selectedCar.images[carPhoto] && <img src={selectedCar.images[carPhoto]} alt="" style={{width:"100%",height:"320px",objectFit:"cover",borderRadius:"16px",marginBottom:"12px",background:"#f0f0f0"}} />}
+                <div style={{display:"flex",gap:"8px",flexWrap:"wrap"}}>
                   {selectedCar.images.map((img,i)=>(
-                    <img key={i} src={img} alt="" onClick={()=>setCarPhoto(i)} style={{width:"72px",height:"52px",objectFit:"cover",borderRadius:"6px",cursor:"pointer",border:carPhoto===i?"2px solid #C9A84C":"2px solid transparent",opacity:carPhoto===i?1:0.5}} />
+                    <img key={i} src={img} alt="" onClick={()=>setCarPhoto(i)} style={{width:"72px",height:"52px",objectFit:"cover",borderRadius:"6px",cursor:"pointer",border:carPhoto===i?"2px solid #000":"2px solid transparent",opacity:carPhoto===i?1:0.5}} />
                   ))}
                 </div>
               </div>
@@ -587,18 +601,17 @@ export default function App() {
                   <span style={S.carMake}>{selectedCar.make}</span>
                   <span style={S.badge(selectedCar.status)}>{t[selectedCar.status]}</span>
                 </div>
-                <h1 style={{fontFamily:"'Playfair Display',serif",fontSize:"30px",fontWeight:800,color:"#E8E2D9",margin:"0 0 6px"}}>{selectedCar.model}</h1>
-                <div style={{fontSize:"13px",color:"#8A8070",marginBottom:"20px"}}>{selectedCar.year} · {selectedCar.mileage?.toLocaleString()} km · {selectedCar.fuel}</div>
+                <h1 style={{fontFamily:"'Playfair Display',serif",fontSize:"30px",fontWeight:800,color:"#000",margin:"0 0 6px"}}>{selectedCar.model}</h1>
+                <div style={{fontSize:"13px",color:"#666",marginBottom:"20px"}}>{selectedCar.year} · {selectedCar.mileage?.toLocaleString()} km · {selectedCar.fuel}</div>
                 <div style={{display:"flex",alignItems:"baseline",gap:"12px",marginBottom:"24px"}}>
-                  <span style={{fontFamily:"'Playfair Display',serif",fontSize:"34px",fontWeight:800,color:"#C9A84C"}}>{fmt(selectedCar.price)}</span>
-                  <button style={{...S.btnOutline,padding:"5px 12px",fontSize:"11px"}} onClick={()=>setCurrency(c=>c==="USD"?"LBP":"USD")}>{t.currency}</button>
+                  <span style={{fontFamily:"'Playfair Display',serif",fontSize:"34px",fontWeight:800,color:"#000"}}>{fmt(selectedCar.price)}</span>
                 </div>
-                <p style={{color:"#A09080",fontSize:"14px",lineHeight:"1.7",marginBottom:"24px"}}>{selectedCar.description}</p>
+                <p style={{color:"#333",fontSize:"14px",lineHeight:"1.7",marginBottom:"24px"}}>{selectedCar.description}</p>
                 <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"10px",marginBottom:"24px"}}>
                   {[[t.engine,selectedCar.engine],[t.transmission,selectedCar.transmission],[t.color,selectedCar.color],[t.fuel,selectedCar.fuel],[t.mileage,`${selectedCar.mileage?.toLocaleString()} km`],[t.owners,selectedCar.owners]].map(([k,v])=>(
-                    <div key={k} style={{background:"rgba(255,255,255,0.04)",borderRadius:"10px",padding:"12px 16px",border:"1px solid rgba(255,255,255,0.06)"}}>
-                      <div style={{fontSize:"11px",color:"#8A8070",marginBottom:"3px",textTransform:"uppercase"}}>{k}</div>
-                      <div style={{fontSize:"14px",fontWeight:600,color:"#E8E2D9"}}>{v}</div>
+                    <div key={k} style={{background:"#fafafa",borderRadius:"10px",padding:"12px 16px",border:"1px solid #eee"}}>
+                      <div style={{fontSize:"11px",color:"#888",marginBottom:"3px",textTransform:"uppercase"}}>{k}</div>
+                      <div style={{fontSize:"14px",fontWeight:600,color:"#000"}}>{v}</div>
                     </div>
                   ))}
                 </div>
@@ -620,9 +633,9 @@ export default function App() {
             <p style={{...S.pageSub,marginBottom:"12px"}}>{t.openToAll}</p>
             <div style={{...S.chatWrap,height:"calc(100vh - 230px)"}}>
               <div style={{...S.chatHeader,display:"flex",alignItems:"center",gap:"10px"}}>
-                <div style={{width:"10px",height:"10px",background:"#22c55e",borderRadius:"50%"}} />
-                <span style={{fontWeight:700,color:"#E8E2D9"}}>{t.communityChat}</span>
-                <span style={{fontSize:"12px",color:"#8A8070"}}>· {generalMsgs.length} messages</span>
+                <div style={{width:"10px",height:"10px",background:"#10b981",borderRadius:"50%"}} />
+                <span style={{fontWeight:700,color:"#000"}}>{t.communityChat}</span>
+                <span style={{fontSize:"12px",color:"#888"}}>· {generalMsgs.length} messages</span>
               </div>
               <div style={S.chatBody} ref={chatRef}>
                 {generalMsgs.map(m=>(
@@ -650,8 +663,8 @@ export default function App() {
               <div style={{...S.chatHeader,display:"flex",alignItems:"center",gap:"12px"}}>
                 <div style={{...S.avatar,flexShrink:0}}>MY</div>
                 <div>
-                  <div style={{fontWeight:700,color:"#E8E2D9"}}>Maykel Yammine</div>
-                  <div style={{fontSize:"12px",color:"#22c55e"}}>{t.usuallyReplies}</div>
+                  <div style={{fontWeight:700,color:"#000"}}>Maykel Yammine</div>
+                  <div style={{fontSize:"12px",color:"#888"}}>{t.usuallyReplies}</div>
                 </div>
               </div>
               <div style={S.chatBody} ref={privRef}>
@@ -677,23 +690,23 @@ export default function App() {
         {/* PROFILE */}
         {page==="profile" && (
           <div style={S.page}>
-            <div style={{display:"flex",alignItems:"center",gap:"20px",marginBottom:"32px",background:"rgba(255,255,255,0.03)",borderRadius:"16px",padding:"24px",border:"1px solid rgba(255,255,255,0.07)"}}>
+            <div style={{display:"flex",alignItems:"center",gap:"20px",marginBottom:"32px",background:"#fafafa",borderRadius:"16px",padding:"24px",border:"1px solid #eee"}}>
               <div style={{...S.avatar,width:"64px",height:"64px",fontSize:"22px"}}>{user.avatar}</div>
               <div>
-                <h1 style={{fontFamily:"'Playfair Display',serif",fontSize:"24px",color:"#E8E2D9",margin:"0 0 4px"}}>{user.name}</h1>
-                <p style={{color:"#8A8070",fontSize:"14px",margin:0}}>{user.email} · {t.clientAccount}</p>
+                <h1 style={{fontFamily:"'Playfair Display',serif",fontSize:"24px",color:"#000",margin:"0 0 4px"}}>{user.name}</h1>
+                <p style={{color:"#888",fontSize:"14px",margin:0}}>{user.email} · {t.clientAccount}</p>
               </div>
             </div>
             <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"14px",marginBottom:"32px"}}>
               {[[t.favorites,favorites.length+" "+t.savedCars],[t.chats,privateChats.length>0?"1 "+t.activeConversation:"0"],[t.alerts,t.priceDrop]].map(([title,sub],i)=>(
-                <div key={i} style={{background:"rgba(255,255,255,0.03)",borderRadius:"12px",padding:"20px",border:"1px solid rgba(255,255,255,0.07)"}}>
-                  <div style={{fontWeight:700,color:"#E8E2D9",marginBottom:"2px"}}>{title}</div>
-                  <div style={{fontSize:"12px",color:"#8A8070"}}>{sub}</div>
+                <div key={i} style={{background:"#fafafa",borderRadius:"12px",padding:"20px",border:"1px solid #eee"}}>
+                  <div style={{fontWeight:700,color:"#000",marginBottom:"2px"}}>{title}</div>
+                  <div style={{fontSize:"12px",color:"#888"}}>{sub}</div>
                 </div>
               ))}
             </div>
             {favorites.length>0 && <>
-              <h2 style={{fontFamily:"'Playfair Display',serif",fontSize:"20px",color:"#E8E2D9",marginBottom:"16px"}}>{t.savedCarsTitle}</h2>
+              <h2 style={{fontFamily:"'Playfair Display',serif",fontSize:"20px",color:"#000",marginBottom:"16px"}}>{t.savedCarsTitle}</h2>
               <div style={S.carGrid} className="car-grid">
                 {cars.filter(c=>favorites.includes(c.id)).map(c=>(
                   <div key={c.id} style={S.carCard} onClick={()=>{setSelectedCar(c);setCarPhoto(0);setPage("detail")}}>
@@ -707,7 +720,7 @@ export default function App() {
                 ))}
               </div>
             </>}
-            <button style={{...S.btnOutline,width:"100%",marginTop:"32px",padding:"14px",color:"#ef4444",borderColor:"rgba(239,68,68,0.3)"}} onClick={logout}>{t.signOut}</button>
+            <button style={{...S.btnOutline,width:"100%",marginTop:"32px",padding:"14px",color:"#ef4444",borderColor:"#ef4444"}} onClick={logout}>{t.signOut}</button>
           </div>
         )}
 
@@ -722,9 +735,9 @@ export default function App() {
       {/* ══ ADMIN PANEL ════════════════════════════════════════ */}
       {user.role==="admin" && (
         <div style={S.page}>
-          <div style={{display:"flex",gap:"6px",marginBottom:"28px",background:"rgba(255,255,255,0.03)",padding:"6px",borderRadius:"12px",width:"fit-content"}}>
-            {[["dashboard",t.admin],["cars",t.inventory],["messages",t.messages]].map(([key,lb])=>(
-              <button key={key} onClick={()=>setAdminTab(key)} style={{padding:"9px 18px",borderRadius:"8px",cursor:"pointer",fontWeight:600,fontSize:"13px",fontFamily:"'Sora',sans-serif",background:adminTab===key?"rgba(201,168,76,0.15)":"transparent",color:adminTab===key?"#C9A84C":"#8A8070",border:adminTab===key?"1px solid rgba(201,168,76,0.3)":"1px solid transparent"}}>
+          <div style={{display:"flex",gap:"6px",marginBottom:"28px",background:"#fafafa",padding:"6px",borderRadius:"12px",width:"fit-content"}}>
+            {[["dashboard",t.admin],["cars",t.inventory],["generalChat",t.chat],["messages",t.messages]].map(([key,lb])=>(
+              <button key={key} onClick={()=>setAdminTab(key)} style={{padding:"9px 18px",borderRadius:"8px",cursor:"pointer",fontWeight:600,fontSize:"13px",fontFamily:"'Sora',sans-serif",background:adminTab===key?"#000":"transparent",color:adminTab===key?"#fff":"#888",border:"1px solid transparent"}}>
                 {lb}
               </button>
             ))}
@@ -739,15 +752,15 @@ export default function App() {
                 <div key={lb} style={S.statCard}><div style={S.statNum}>{n}</div><div style={S.statLabel}>{lb}</div></div>
               ))}
             </div>
-            <h2 style={{fontFamily:"'Playfair Display',serif",fontSize:"20px",color:"#E8E2D9",marginBottom:"16px"}}>{t.recentListings}</h2>
-            <div style={{background:"rgba(255,255,255,0.02)",borderRadius:"14px",border:"1px solid rgba(255,255,255,0.06)",overflow:"hidden"}}>
+            <h2 style={{fontFamily:"'Playfair Display',serif",fontSize:"20px",color:"#000",marginBottom:"16px"}}>{t.recentListings}</h2>
+            <div style={{background:"#fafafa",borderRadius:"14px",border:"1px solid #eee",overflow:"hidden"}}>
               <table style={S.table}>
                 <thead><tr>{[t.car,t.year,t.price,t.status].map(h=><th key={h} style={S.th}>{h}</th>)}</tr></thead>
                 <tbody>{cars.slice(0,5).map(c=>(
                   <tr key={c.id}>
                     <td style={S.td}><strong>{c.make} {c.model}</strong></td>
                     <td style={S.td}>{c.year}</td>
-                    <td style={S.td}>${c.price?.toLocaleString()}</td>
+                    <td style={S.td}>{fmt(c.price)}</td>
                     <td style={S.td}><span style={S.badge(c.status)}>{t[c.status]}</span></td>
                   </tr>
                 ))}</tbody>
@@ -761,20 +774,20 @@ export default function App() {
               <div><h1 style={{...S.pageTitle,marginBottom:"4px"}}>{t.inventory}</h1><p style={{...S.pageSub,marginBottom:0}}>{cars.length} {t.carsFound}</p></div>
               <button style={{...S.btnGold,width:"auto",padding:"11px 22px"}} onClick={()=>setShowAddCar(true)}>{t.addNewCar}</button>
             </div>
-            <div style={{background:"rgba(255,255,255,0.02)",borderRadius:"14px",border:"1px solid rgba(255,255,255,0.06)",overflow:"auto"}}>
+            <div style={{background:"#fafafa",borderRadius:"14px",border:"1px solid #eee",overflow:"auto"}}>
               <table style={S.table}>
                 <thead><tr>{["",t.car,t.year,t.price,t.status,t.actions].map(h=><th key={h} style={S.th}>{h}</th>)}</tr></thead>
                 <tbody>{cars.map(c=>(
                   <tr key={c.id}>
-                    <td style={S.td}><img src={c.images[0]} style={{width:"60px",height:"40px",objectFit:"cover",borderRadius:"6px",background:"#111"}} /></td>
+                    <td style={S.td}><img src={c.images[0]} style={{width:"60px",height:"40px",objectFit:"cover",borderRadius:"6px",background:"#f0f0f0"}} /></td>
                     <td style={S.td}><strong>{c.make}</strong> {c.model}</td>
                     <td style={S.td}>{c.year}</td>
-                    <td style={{...S.td,color:"#C9A84C",fontWeight:700}}>${c.price?.toLocaleString()}</td>
+                    <td style={{...S.td,color:"#000",fontWeight:700}}>{fmt(c.price)}</td>
                     <td style={S.td}><span style={S.badge(c.status)}>{t[c.status]}</span></td>
                     <td style={S.td}>
                       <div style={{display:"flex",gap:"6px"}}>
-                        <button onClick={()=>setEditingCar({...c})} style={{background:"rgba(27,58,107,0.4)",border:"1px solid rgba(27,58,107,0.7)",color:"#93c5fd",borderRadius:"6px",padding:"5px 10px",cursor:"pointer",fontSize:"12px",fontFamily:"'Sora',sans-serif"}}>{t.edit}</button>
-                        <button onClick={()=>deleteCar(c.id)} style={{background:"rgba(127,29,29,0.4)",border:"1px solid rgba(239,68,68,0.3)",color:"#fca5a5",borderRadius:"6px",padding:"5px 10px",cursor:"pointer",fontSize:"12px",fontFamily:"'Sora',sans-serif"}}>{t.delete}</button>
+                        <button onClick={()=>setEditingCar({...c, images: c.images || []})} style={{background:"#000",border:"1px solid #000",color:"#fff",borderRadius:"6px",padding:"5px 10px",cursor:"pointer",fontSize:"12px"}}>{t.edit}</button>
+                        <button onClick={()=>deleteCar(c.id)} style={{background:"transparent",border:"1px solid #ef4444",color:"#ef4444",borderRadius:"6px",padding:"5px 10px",cursor:"pointer",fontSize:"12px"}}>{t.delete}</button>
                       </div>
                     </td>
                   </tr>
@@ -783,21 +796,49 @@ export default function App() {
             </div>
           </>}
 
-          {/* MESSAGES */}
+          {/* GENERAL CHAT (admin) */}
+          {adminTab==="generalChat" && (
+            <div style={{...S.page,height:"calc(100vh - 200px)",display:"flex",flexDirection:"column",gap:"8px"}}>
+              <h1 style={{...S.pageTitle,marginBottom:"4px"}}>{t.communityChat}</h1>
+              <p style={{...S.pageSub,marginBottom:"12px"}}>{t.openToAll}</p>
+              <div style={{...S.chatWrap,height:"calc(100vh - 300px)"}}>
+                <div style={{...S.chatHeader,display:"flex",alignItems:"center",gap:"10px"}}>
+                  <div style={{width:"10px",height:"10px",background:"#10b981",borderRadius:"50%"}} />
+                  <span style={{fontWeight:700,color:"#000"}}>{t.communityChat}</span>
+                  <span style={{fontSize:"12px",color:"#888"}}>· {generalMsgs.length} messages</span>
+                </div>
+                <div style={S.chatBody} ref={chatRef}>
+                  {generalMsgs.map(m=>(
+                    <div key={m.id} style={{...S.msgBubble(m.sender_id===user.id, m.is_admin)}}>
+                      <div style={S.msgSender}>{m.is_admin?"👑 "+m.sender_name:m.sender_name}</div>
+                      <div style={S.msgText}>{m.text}</div>
+                      <div style={S.msgTime}>{new Date(m.created_at).toLocaleTimeString([],{hour:"2-digit",minute:"2-digit"})}</div>
+                    </div>
+                  ))}
+                </div>
+                <div style={S.chatInputRow}>
+                  <input value={genInput} onChange={e=>setGenInput(e.target.value)} onKeyDown={e=>e.key==="Enter"&&sendGeneral()} placeholder={t.typeMessage} style={{...S.input,marginBottom:0,flex:1}} />
+                  <button style={{...S.btnGold,width:"auto",padding:"11px 20px"}} onClick={sendGeneral}>{t.send}</button>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* MESSAGES (private) */}
           {adminTab==="messages" && <>
             <h1 style={S.pageTitle}>{t.messages}</h1>
             <p style={S.pageSub}>{t.privateConversations}</p>
             <div style={{display:"grid",gridTemplateColumns:"240px 1fr",gap:"16px",height:"520px"}}>
-              <div style={{background:"rgba(255,255,255,0.03)",borderRadius:"12px",border:"1px solid rgba(255,255,255,0.07)",overflowY:"auto"}}>
+              <div style={{background:"#fafafa",borderRadius:"12px",border:"1px solid #eee",overflowY:"auto"}}>
                 {clientsList.length===0
-                  ? <div style={{padding:"20px",color:"#555",fontSize:"13px",textAlign:"center"}}>{t.noClients}</div>
+                  ? <div style={{padding:"20px",color:"#888",fontSize:"13px",textAlign:"center"}}>{t.noClients}</div>
                   : clientsList.map(cl=>(
-                    <div key={cl.id} onClick={()=>setSelectedClientId(cl.id)} style={{padding:"14px 16px",borderBottom:"1px solid rgba(255,255,255,0.05)",cursor:"pointer",background:selectedClientId===cl.id?"rgba(201,168,76,0.12)":"transparent",display:"flex",alignItems:"center",gap:"10px"}}>
+                    <div key={cl.id} onClick={()=>setSelectedClientId(cl.id)} style={{padding:"14px 16px",borderBottom:"1px solid #eee",cursor:"pointer",background:selectedClientId===cl.id?"#f0f0f0":"transparent",display:"flex",alignItems:"center",gap:"10px"}}>
                       <div style={{...S.avatar,width:"32px",height:"32px",fontSize:"11px"}}>{cl.avatar_initials}</div>
                       <div style={{flex:1}}>
-                        <div style={{fontSize:"13px",fontWeight:600,color:"#E8E2D9"}}>{cl.full_name}</div>
+                        <div style={{fontSize:"13px",fontWeight:600,color:"#000"}}>{cl.full_name}</div>
                       </div>
-                      {selectedClientId===cl.id && <div style={{width:"8px",height:"8px",borderRadius:"50%",background:"#C9A84C"}} />}
+                      {selectedClientId===cl.id && <div style={{width:"8px",height:"8px",borderRadius:"50%",background:"#000"}} />}
                     </div>
                   ))
                 }
@@ -805,8 +846,8 @@ export default function App() {
               {selectedClientId ? (
                 <div style={{...S.chatWrap}}>
                   <div style={S.chatHeader}>
-                    <div style={{fontWeight:700,color:"#E8E2D9"}}>{clientsList.find(c=>c.id===selectedClientId)?.full_name}</div>
-                    <div style={{fontSize:"12px",color:"#22c55e"}}>{t.active}</div>
+                    <div style={{fontWeight:700,color:"#000"}}>{clientsList.find(c=>c.id===selectedClientId)?.full_name}</div>
+                    <div style={{fontSize:"12px",color:"#888"}}>{t.active}</div>
                   </div>
                   <div style={S.chatBody} ref={privRef}>
                     {privateChats.map(m=>{
@@ -826,7 +867,7 @@ export default function App() {
                   </div>
                 </div>
               ) : (
-                <div style={{display:"flex",alignItems:"center",justifyContent:"center",color:"#555",fontSize:"14px",border:"1px solid rgba(255,255,255,0.05)",borderRadius:"12px"}}>
+                <div style={{display:"flex",alignItems:"center",justifyContent:"center",color:"#888",fontSize:"14px",border:"1px solid #eee",borderRadius:"12px"}}>
                   {t.selectClient}
                 </div>
               )}
@@ -837,8 +878,8 @@ export default function App() {
           {showAddCar && (
             <div style={S.modal} onClick={e=>e.target===e.currentTarget&&setShowAddCar(false)}>
               <div style={S.modalCard}>
-                <h2 style={{fontFamily:"'Playfair Display',serif",fontSize:"22px",color:"#E8E2D9",marginBottom:"20px"}}>{t.addCar}</h2>
-                <UploadBox uid="add-photo" url={addPhotoUrl} loading={addUploading} onFile={f=>uploadPhoto(f,setAddPhotoUrl,setAddUploading)} />
+                <h2 style={{fontFamily:"'Playfair Display',serif",fontSize:"22px",color:"#000",marginBottom:"20px"}}>{t.addCar}</h2>
+                <UploadBox urls={addPhotoUrls} setUrls={setAddPhotoUrls} uploading={addUploading} />
                 {[["make",t.make,t.makePh],["model",t.model,t.modelPh],["year",t.year,t.yearPh],["price",t.price,t.pricePh],["mileage",t.mileage,t.mileagePh],["engine",t.engine,t.enginePh],["color",t.color,t.colorPh]].map(([k,lb,ph])=>(
                   <div key={k}><label style={S.lbl}>{lb}</label><input style={S.input} placeholder={ph} value={newCar[k]||""} onChange={e=>setNewCar(p=>({...p,[k]:e.target.value}))} /></div>
                 ))}
@@ -866,8 +907,8 @@ export default function App() {
           {editingCar && (
             <div style={S.modal} onClick={e=>e.target===e.currentTarget&&setEditingCar(null)}>
               <div style={S.modalCard}>
-                <h2 style={{fontFamily:"'Playfair Display',serif",fontSize:"22px",color:"#E8E2D9",marginBottom:"20px"}}>{t.editCar}</h2>
-                <UploadBox uid="edit-photo" url={editPhotoUrl} loading={editUploading} onFile={f=>uploadPhoto(f,setEditPhotoUrl,setEditUploading)} />
+                <h2 style={{fontFamily:"'Playfair Display',serif",fontSize:"22px",color:"#000",marginBottom:"20px"}}>{t.editCar}</h2>
+                <UploadBox urls={editPhotoUrls} setUrls={setEditPhotoUrls} uploading={editUploading} />
                 {[["make",t.make],["model",t.model],["price",t.price],["mileage",t.mileage],["color",t.color]].map(([k,lb])=>(
                   <div key={k}><label style={S.lbl}>{lb}</label><input style={S.input} value={editingCar[k]||""} onChange={e=>setEditingCar(p=>({...p,[k]:e.target.value}))} /></div>
                 ))}
